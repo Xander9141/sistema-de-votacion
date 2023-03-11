@@ -1,0 +1,21 @@
+Estimado/a [Nombre del encargado/a],
+
+Le agradezco sinceramente la oportunidad que me brindó de realizar la prueba para
+ la posición de dearrollador Junior. Fue una experiencia muy enriquecedora para mí,
+ en la que pude demostrar mis habilidades y conocimientos en programacion.
+
+Quiero informarle que adjunto al correo el archivo basededatos.sql, que contiene la
+ creación de las tablas e inserciones correspondientes en la base de datos MySQL
+ que se utilizó en la prueba. Además, en el siguiente link URL puede encontrar
+ todos los archivos que se utilizaron en el sistema.
+
+Por otra parte, le informo que la versión de PHP que utilicé para realizar la
+ prueba fue la Versión 8.1.12. También quiero comentarle que el archivo
+ resultados.php trata de graficar los datos ingresados, pero debido al tiempo
+ limitado y falta de conocimientos no pude finalizarlo como hubiera deseado.
+
+Le agradezco nuevamente la oportunidad que me brindó y espero poder contar con
+ su respuesta pronto.
+
+Saludos cordiales,
+Ramón Alexander Torres R.
