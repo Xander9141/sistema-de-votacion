@@ -5,10 +5,9 @@ CREATE DATABASE sistema_votacion;
 //Creación de la tabla "regiones :
 
 CREATE TABLE regiones (
-  id INT(11) NOT NULL AUTO_INCREMENT,
-  nombre VARCHAR(50) NOT NULL,
-  PRIMARY KEY (id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(50) NOT NULL
+);
 
 //Creación de la tabla "comunas":
 
@@ -16,7 +15,7 @@ CREATE TABLE comunas (
   id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
   region_id INT(11) UNSIGNED NOT NULL,
-  CONSTRAINT fk_comuna_region FOREIGN KEY (region_id) REFERENCES region(id)
+  CONSTRAINT fk_comuna_region FOREIGN KEY (region_id) REFERENCES regiones(id)
 );
 
 //Crear la tabla "votos":
@@ -56,6 +55,7 @@ VALUES
 
 
 // ingresar las comunas
+
 INSERT INTO comunas (nombre_comuna, region_id)
 VALUES
     ('Arica', 1),
@@ -167,7 +167,7 @@ VALUES
 ('San Miguel', 7),
 ('San Ramón', 7),
 ('Santiago', 7),
-('Vitacura', 7);
+('Vitacura', 7),
     ('Rancagua', 8),
 ('Codegua', 8),
 ('Coinco', 8),
