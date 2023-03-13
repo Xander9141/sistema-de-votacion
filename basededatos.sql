@@ -12,7 +12,7 @@ CREATE TABLE regiones (
 
 //Creación de la tabla "comunas":
 
-CREATE TABLE comuna (
+CREATE TABLE comunas (
   id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(50) NOT NULL,
   region_id INT(11) UNSIGNED NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE votos (
 
 // ingresar las regiones
 
-INSERT INTO regions (region_id, nombre)
+INSERT INTO regiones (id, nombre)
 VALUES 
 (1, 'Arica y Parinacota'),
 (2, 'Tarapacá'),
